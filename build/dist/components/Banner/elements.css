@@ -1,0 +1,20 @@
+/* Slide down animation */
+@keyframes slideDown {
+  from {
+    transform: translateY(-48px);
+  }
+  to {
+    transform: translateY(0px);
+  }
+}
+
+.banner {
+  display: flex;
+  justify-content: center;
+  background-color: rgb(16, 215, 125);
+  color: #fff;
+  font-size: 14px;
+  font-weight: 500;
+  height: 48px;
+  animation: slideDown 0.45s cubic-bezier(0.46, 0.69, 0.63, 0.53);
+}

@@ -1,0 +1,89 @@
+/* Nominate button */
+.active-button {
+  /* Global button styling */
+  cursor: pointer;
+  font-weight: 600;
+  font-family: "Nunito", sans-serif;
+  border: none;
+  box-shadow: 0 1rem 2rem rgba(0, 0, 0, 0.25);
+  text-shadow: none;
+  transition-property: box-shadow, transform;
+  transform-origin: center;
+  transition-duration: 125ms;
+  will-change: box-shadow, transform;
+  outline: none;
+
+  width: auto;
+  height: 26px;
+  margin-left: 10px;
+  border-radius: 3px;
+  background-color: rgb(49, 206, 135);
+
+  font-size: 12px;
+}
+
+.active-button:hover {
+  box-shadow: 0 1.5rem 3rem rgba(0, 0, 0, 0.3);
+  transform: scale(1.05) translateY(-4px);
+}
+
+.active-button:active {
+  box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.25);
+  transform: scale(0.98) translateY(-2px);
+}
+
+.unactive-button {
+  /* Global button styling */
+  font-weight: 600;
+  font-family: "Nunito", sans-serif;
+  border: none;
+  box-shadow: 0 1rem 2rem rgba(0, 0, 0, 0.25);
+  text-shadow: none;
+  transition-property: box-shadow, transform;
+  transform-origin: center;
+  transition-duration: 125ms;
+  will-change: box-shadow, transform;
+  outline: none;
+
+  width: auto;
+  height: 26px;
+  margin-left: 10px;
+  border-radius: 3px;
+  background-color: rgba(49, 206, 135, 0.5);
+
+  font-size: 12px;
+}
+
+/* Remove button */
+.remove-button {
+  /* Global button styling */
+  cursor: pointer;
+  font-weight: 600;
+  font-family: "Nunito", sans-serif;
+  border: none;
+  box-shadow: 0 1rem 2rem rgba(0, 0, 0, 0.25);
+  text-shadow: none;
+  transition-property: box-shadow, transform;
+  transform-origin: center;
+  transition-duration: 125ms;
+  will-change: box-shadow, transform;
+  outline: none;
+
+  width: auto;
+  height: 26px;
+  margin-left: 10px;
+  border-radius: 3px;
+  background-color: tomato;
+
+  font-size: 12px;
+}
+
+.remove-button:hover {
+  box-shadow: 0 1.5rem 3rem rgba(0, 0, 0, 0.3);
+  transform: scale(1.05) translateY(-4px);
+}
+
+.remove-button:active {
+  box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.25);
+  transform: scale(0.98) translateY(-2px);
+}

@@ -1,0 +1,11 @@
+{
+  "imports": {
+    "react": "./react.js",
+    "react-dom": "./react-dom.js",
+    "react-icons/ai": "./react-icons/ai.js",
+    "react-icons/fi": "./react-icons/fi.js",
+    "react-icons/io": "./react-icons/io.js",
+    "react-icons/md": "./react-icons/md.js",
+    "react-icons/si": "./react-icons/si.js"
+  }
+}

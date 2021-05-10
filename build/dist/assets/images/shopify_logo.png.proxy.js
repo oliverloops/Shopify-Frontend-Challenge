@@ -1,0 +1,1 @@
+export default "/dist/assets/images/shopify_logo.png";

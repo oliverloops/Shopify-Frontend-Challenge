@@ -1,0 +1,77 @@
+@keyframes GoRight {
+  from {
+    transform: translateX(-100%);
+    opacity: 0;
+  }
+  to {
+    transform: translatex(0%);
+    opacity: 1;
+  }
+}
+
+@-moz-keyframes GoRight {
+  from {
+    transform: translateX(-100%);
+    opacity: 0;
+  }
+  to {
+    transform: translatex(0%);
+    opacity: 1;
+  }
+}
+
+@-webkit-keyframes GoRight {
+  from {
+    transform: translateX(-100%);
+    opacity: 0;
+  }
+  to {
+    transform: translatex(0%);
+    opacity: 1;
+  }
+}
+
+.box {
+  width: 100%;
+  height: auto;
+  background-color: #fff;
+  border-radius: 12px;
+
+  /* Box shadow effect */
+  -webkit-box-shadow: 0px 0px 8px 0px rgba(189, 189, 189, 0.35);
+  -moz-box-shadow: 0px 0px 8px 0px rgba(189, 189, 189, 0.35);
+  box-shadow: 0px 0px 8px 0px rgba(189, 189, 189, 0.35);
+
+  /* Initial animation effect */
+  animation: GoRight 1.1s cubic-bezier(0.47, 0.18, 0.25, 0.75) 0.35s;
+  -webkit-animation: GoRight 1.1s cubic-bezier(0.47, 0.18, 0.25, 0.75) 0.35s;
+  -moz-animation: GoRight 1.1s cubic-bezier(0.47, 0.18, 0.25, 0.75) 0.35s;
+}
+
+.box > ul {
+  padding: 1rem;
+  list-style: none;
+}
+
+.box > ul > li {
+  display: flex;
+  align-items: center;
+  padding: 5px;
+}
+
+.box > ul > li > .info-button {
+  background: none;
+  border: none;
+  outline: none;
+}
+
+.box > ul > li > .info-button > svg {
+  margin: 0;
+  padding: 3px 1.5px 0 1.5px;
+}
+
+@media (min-width: 300px) and (max-width: 768px) {
+  .box {
+    width: 100%;
+  }
+}

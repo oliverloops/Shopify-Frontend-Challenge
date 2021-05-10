@@ -1,0 +1,7 @@
+body {
+  height: 100%;
+  margin: 0 auto;
+  overflow-x: hidden;
+  font-family: "Nunito", sans-serif;
+  background-color: rgba(253, 253, 253);
+}
